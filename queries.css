@@ -1,0 +1,66 @@
+@media (max-width: 1200px) {
+}
+
+/* small laptop  */
+@media (max-width: 900px) {
+}
+
+
+
+
+/* tablet  */
+@media (max-width: 650px) {
+  .navbar {
+    flex-wrap: wrap;
+    background-size: cover;
+    padding: 2rem;
+  }
+  .who {
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 2rem;
+  }
+  .intro {
+    margin-top: 5rem;
+  }
+  .intro-para {
+    width: 30rem;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+  }
+  .intro-heading {
+    width: 40rem;
+    font-size: 4.2rem;
+    padding-bottom: -20rem;
+  }
+  .head-icon {
+    display: none;
+  }
+}
+
+
+
+/* phone  */
+@media (max-width: 480px) {
+  .navbar {
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  .hero-heading {
+    font-size: 4rem;
+    width: 35rem;
+    text-transform: capitalize;
+    padding-top: 10rem;
+    padding-left: 2rem;
+    color: #fff;
+    text-align: center;
+  }
+  .restaurant {
+    margin-left: 5.2rem;
+  }
+  .restaurant-image {
+    height: 30rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+}
