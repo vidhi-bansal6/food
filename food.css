@@ -110,3 +110,76 @@ body {
 .restaurant-image:hover{
     scale: 1.1;
 }
+
+.menu{
+  height: 60rem;
+  margin-top: 5rem;
+}
+.menu-heading{
+text-align: center;
+color: black;
+text-transform: capitalize;
+font-size: 3.2rem;
+padding-top: 5rem;
+font-weight: 900;
+}
+.menu-para{
+  text-align: center;
+color: black;
+text-transform: capitalize;
+font-size: 1.4rem;
+line-height: 1.4;
+padding-top: 1.8rem;
+width: 50rem;
+margin: 0 auto;
+}
+.menu-list{
+  display: flex;
+  gap: 1rem;
+  margin: 0 auto;
+  color: black;
+  list-style: none;
+  margin-top: 4rem;
+  margin-left: 32rem;
+}
+.menu-lists{
+  font-size: 2rem;
+  border: 1px solid rgb(124, 124, 124);
+  padding: 0.8rem;
+  border-radius: 1.1rem;
+  text-transform: capitalize;
+
+}
+.menu-lists:hover{
+  scale: 1.1;
+}
+.lists{
+  background-color: rgb(208, 205, 205);
+}
+.menu-image{
+margin-top: 5rem;
+margin-left: 6rem;
+display: flex;
+}
+.menu-food{
+  height: 30rem;
+  width: 25rem;
+  padding: 1rem;
+}
+.menu-icon{
+  color: black;
+  margin-bottom: 20rem;
+}
+.food-name{
+  color: black;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 900;
+}
+.food-price{
+  color: black;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
