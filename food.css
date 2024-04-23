@@ -183,3 +183,88 @@ display: flex;
   text-transform: capitalize;
   text-align: center;
 }
+.beverage{
+  margin-top: 20rem;
+  display: flex;
+  gap: 15rem;
+  align-items: center;
+  margin-left: 10rem;
+}
+.beverage-juice{
+  height: 50rem;
+  width: 35rem;
+}
+.beverage-name{
+  color: black;
+  font-size: 1.8rem;
+  text-align: start;
+  text-transform: capitalize;
+  font-weight: 700;
+  
+}
+.beverage-para{
+  color: black;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.beverage-price{
+  color: black;
+  font-size: 1.4rem;
+  text-align:start;
+  
+}
+.juice{
+  color: black;
+  font-size: 5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.wine{
+  color: rgb(141, 189, 141);
+}
+.juice-hr{
+  width: 150%;
+}
+.beer-icon{
+  display: block;
+  color: black;
+  margin-left: -12rem;
+  margin-bottom: -4rem;
+}
+.beverage-icon{
+  margin-top: 25rem;
+}
+.team{
+  background-color: rgb(159, 180, 159);
+  height: 60rem;
+  padding-top: 2rem;
+}
+.chefs{
+display: flex;
+gap: 2rem;
+}
+.chef-image{
+  height: 32rem;
+  width: 25rem;
+  padding: 1rem;
+  
+}
+.chef-para{
+  width:20rem;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-left: 3rem;
+}
+.chef-name{
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.chef-team{
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem;
+  text-transform: capitalize;
+}
