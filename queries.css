@@ -130,4 +130,21 @@
     width: 30rem;
     padding: 1rem;
   }
+  .event-image{
+    height: 20rem;
+    width: 40rem;
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .event-heading{
+text-align: center;
+  }
+  .event{
+    margin-top: 120rem;
+
+  }
+  .team{
+    margin-top: 100rem;
+  }
+  
 }
