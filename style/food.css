@@ -19,10 +19,11 @@ body {
     rgba(0, 0, 0, 0.1),
     rgba(0, 128, 0, 0.094)
   );
-  background-image: url(home.image.avif);
+  background-image: url(../media/home.image.avif);
   background-size: cover;
   background-repeat: no-repeat;
   height: 58rem;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -73,7 +74,8 @@ body {
 .intro {
   color: black;
   margin-top: 10rem;
-  height: 40rem;
+
+  width: 100%;
 }
 .who {
   display: flex;
@@ -112,7 +114,7 @@ body {
   margin-right: 1rem;
   animation-name: restaurant-image;
   animation-duration: 5s;
-  animation-iteration-count:5;
+  animation-iteration-count:infinite;
   animation-timing-function: ease-in-out;
 }
 
@@ -132,7 +134,7 @@ body {
 }
 
 .menu{
-  height: 60rem;
+
   margin-top: 9rem;
 }
 .menu-heading{
@@ -216,7 +218,7 @@ display: flex;
 .beverages{
   animation-name: beverages;
   animation-duration: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count:1;
   animation-timing-function: ease-in-out;
 }
 
@@ -342,12 +344,12 @@ height: 96rem;
   color: rgb(80, 80, 80);
   text-transform: capitalize;
   font-size: 2rem;
-  /* text-align: center; */
+
   padding-top: 2rem;
 }
 .footer-icons {
   display: inline-block;
-/* margin-left: 40rem; */
+
   color:rgb(80, 80, 80);
   font-size: 2rem;
   padding-right: 1rem;
